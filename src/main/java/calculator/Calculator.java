@@ -4,7 +4,6 @@ import exception.CalculatorException;
 import formula.*;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 import java.util.regex.Pattern;
 

@@ -1,11 +1,4 @@
 package calculator;
-
-import exception.CalculatorException;
-import formula.*;
-
-import java.util.Queue;
-import java.util.regex.Pattern;
-
 public class ArithmeticCalculator extends Calculator{
 
     @Override

@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="@gwshim 계산식 인터페이스화, 계산기 상속화">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/CalculatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/AbstractOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/AddOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/DivideOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/ModOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/MultiplyOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/SubstractOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721796950286</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="@gwshim 계산식 인터페이스화, 계산기 상속화">
+      <option name="closed" value="true" />
+      <created>1721879818112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721879818112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
