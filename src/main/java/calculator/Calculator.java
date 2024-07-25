@@ -19,14 +19,13 @@ public abstract class Calculator {
 
     public abstract double calculate();
 
-    public Calculator checkNum(String input) throws CalculatorException {
+    public void checkNum(String input) throws CalculatorException {
         if(!Pattern.matches(numRegularExpression, input)){
             throw new CalculatorException("잘못된 값");
         }
-        return this;
     }
 
-    public Calculator checkOperator(String operationInput) throws CalculatorException {
+    public void checkOperator(String operationInput) throws CalculatorException {
         if (!Pattern.matches(symbolRegularExpression, operationInput)) {
             throw new CalculatorException("연산자");
         }
@@ -50,7 +49,6 @@ public abstract class Calculator {
             case "%":
                 ao = new ModOperator();
         }
-        return this;
     }
 
     public AbstractOperation getAo() {
