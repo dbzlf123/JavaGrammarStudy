@@ -1,6 +1,6 @@
 package formula;
 
-public interface AbstractOperation {
+public interface  AbstractOperation<T extends Number> {
 
-    double operate(double firstNumber, double secondNumber);
+    T operate(Class<T> input, T firstNumber, T secondNumber);
 }
