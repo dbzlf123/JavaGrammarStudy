@@ -50,23 +50,23 @@ public class ArithmeticCalculator<T extends Number> extends Calculator{
     //나중에 런타임 타입 변경용..
     //어노테이션으로 캐스팅 타입이 불확실해서 나오는 경고문 날려버림. 왜? 저 조건이면 다른거 들어올일이 없기떄문.
     //하지만 보통은 캐스팅 안전한지 확인하고 해야함
-    @SuppressWarnings("unchecked") 
-    public void changeType(String str){
-        switch (str){
-            case "int" :
-                this.type = (Class<T>) Integer.class;
-                break;
-            case "long" :
-                this.type = (Class<T>) Long.class;
-                break;
-            case "float" :
-                this.type = (Class<T>) Float.class;
-                break;
-            case "double" :
-                this.type = (Class<T>) Double.class;
-                break;
-        }
-    }
+//    @SuppressWarnings("unchecked")
+//    public void changeType(String str){
+//        switch (str){
+//            case "int" :
+//                this.type = (Class<T>) Integer.class;
+//                break;
+//            case "long" :
+//                this.type = (Class<T>) Long.class;
+//                break;
+//            case "float" :
+//                this.type = (Class<T>) Float.class;
+//                break;
+//            case "double" :
+//                this.type = (Class<T>) Double.class;
+//                break;
+//        }
+//    }
 
     private AbstractOperation<T> setOperator() {
         OperatorType operatorType = checkOperator(symbol);

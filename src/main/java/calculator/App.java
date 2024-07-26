@@ -1,6 +1,5 @@
 package calculator;
 
-import exception.CalculatorException;
 import formula.FormulaHelper;
 
 import java.util.Scanner;

@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="@gwshim 각 기능에 맞게 매서드 및 변수 분배, 고정된 입력값이 아닌 String 을 통해 수를 받아서 추출할 수 있게 함, 과제 조건에 맞게 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/FormulaHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/formula/OperatorType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/formula/AbstractOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula/AbstractOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/formula/AddOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula/AddOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/formula/DivideOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula/DivideOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/formula/ModOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula/ModOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/formula/MultiplyOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula/MultiplyOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/formula/SubstractOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula/SubstractOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721879994354</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="@gwshim 각 기능에 맞게 매서드 및 변수 분배, 고정된 입력값이 아닌 String 을 통해 수를 받아서 추출할 수 있게 함, 과제 조건에 맞게 구현">
+      <option name="closed" value="true" />
+      <created>1722014651429</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722014651429</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
