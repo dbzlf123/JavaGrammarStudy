@@ -1,4 +1,5 @@
 package calculator;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class App {
@@ -6,8 +7,8 @@ public class App {
     public static boolean start() throws Exception{
         Scanner sc = new Scanner(System.in);
 
-        Calculator arithmeticCalculator = new ArithmeticCalculator();
-        Calculator circleCalculator = new CircleCalculator();
+        Calculator arithmeticCalculator = new ArithmeticCalculator(new LinkedList<>());
+        Calculator circleCalculator = new CircleCalculator(new LinkedList<>());
 
         while(true)  {
 

@@ -9,13 +9,17 @@ import java.util.regex.Pattern;
 
 public abstract class Calculator {
 
-    private AbstractOperation ao;
-    private final Queue<Double> resultQueue = new LinkedList<>(); //Final 설정 이유 : 한번 설정하면 다시 안바뀔테니까.
+    private AbstractOperation ao; //나는 너를 포함한다...
+    private final Queue<Double> resultQueue; //Final 설정 이유 : 한번 설정하면 다시 안바뀔테니까.
     private String firstNumber;
     private String secondNumber;
     private String radius;
-    private final String symbolRegularExpression = "[+\\-*/%]";
-    private final String numRegularExpression = "^[+-]?(\\d+(\\.\\d*)?|\\.\\d+)([eE][+-]?\\d+)?$";
+    private static final String symbolRegularExpression = "[+\\-*/%]"; //바뀔일도 없고 내부에서만 쓸거라 static 및 final...
+    private static final String numRegularExpression = "^[+-]?(\\d+(\\.\\d*)?|\\.\\d+)([eE][+-]?\\d+)?$";
+
+    public Calculator(Queue<Double> resultQueue) {
+        this.resultQueue = resultQueue;
+    }
 
     public abstract double calculate();
 
