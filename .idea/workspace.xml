@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="@gwshim 계산식 인터페이스화, 계산기 상속화">
+    <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="@gwshim static 사용해서 일부 변수 내부 사용, new 를 사용해 Calculator 생성시 초기화할 수 있게 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/ArithmeticCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/CircleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721879961631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="@gwshim static 사용해서 일부 변수 내부 사용, new 를 사용해 Calculator 생성시 초기화할 수 있게 수정">
+      <option name="closed" value="true" />
+      <created>1722092207339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722092207339</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +239,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="@gwshim 계산식 인터페이스화, 계산기 상속화" />
-    <option name="LAST_COMMIT_MESSAGE" value="@gwshim 계산식 인터페이스화, 계산기 상속화" />
+    <MESSAGE value="@gwshim static 사용해서 일부 변수 내부 사용, new 를 사용해 Calculator 생성시 초기화할 수 있게 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="@gwshim static 사용해서 일부 변수 내부 사용, new 를 사용해 Calculator 생성시 초기화할 수 있게 수정" />
   </component>
 </project>
