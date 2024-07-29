@@ -2,9 +2,14 @@ package calculator;
 import formula.*;
 
 import java.util.Arrays;
+import java.util.Queue;
 
 //Number 형을 받겠다.
 public class ArithmeticCalculator<T extends Number> extends Calculator{
+
+    public ArithmeticCalculator(Queue<Double> resultQueue) {
+        super(resultQueue);
+    }
 
     private T firstNumber;
     private T secondNumber;
@@ -18,6 +23,16 @@ public class ArithmeticCalculator<T extends Number> extends Calculator{
 //    public ArithmeticCalculator(Class<T> type) {
 //        this.type = type;
 //    }
+
+
+    @Override
+    public void inquiryResults() {
+        getResultQueue().
+                stream().
+                map(val -> FormulaHelper.doTypeChange(type, val)).
+                forEach(System.out::println);
+    }
+
     public void setFirstNumber(String firstNumber){
         this.firstNumber = FormulaHelper.doTypeChange(type, firstNumber);
     }
@@ -89,6 +104,7 @@ public class ArithmeticCalculator<T extends Number> extends Calculator{
         getResultQueue().
                 stream().
                 filter(val-> FormulaHelper.doTypeChange(type, result).doubleValue() > val).
+                map(val -> FormulaHelper.doTypeChange(type, val)).
                 forEach(System.out::println);
     }
 

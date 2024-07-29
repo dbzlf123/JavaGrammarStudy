@@ -2,6 +2,7 @@ package calculator;
 
 import formula.FormulaHelper;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class App {
@@ -10,9 +11,13 @@ public class App {
         Scanner sc = new Scanner(System.in);
 
         //타입 바꾸고 싶으면 요기 ... 제네릭 클래스라 생성시 초기화가 맞다. 완전 동적으로 하라면 제네릭 클래스를 빼고 해보자
-        ArithmeticCalculator<Integer> arithmeticCalculator = new ArithmeticCalculator<>();
+        //ArithmeticCalculator<Integer> arithmeticCalculator = new ArithmeticCalculator<>();
+        
+        //과제의 요구사항은 생성자 초기화 였으니 일단 생성자 초기화..
+        ArithmeticCalculator<Integer> arithmeticCalculator = new ArithmeticCalculator<>(new LinkedList<>());
+        //Type 도 생성자 초기화가 가능하지만 set 로 해보는 느낌
         arithmeticCalculator.setType(Integer.class);
-        CircleCalculator circleCalculator = new CircleCalculator();
+        CircleCalculator circleCalculator = new CircleCalculator(new LinkedList<>());
 
         while (true) {
 

@@ -5,7 +5,11 @@ import java.util.Queue;
 
 public abstract class Calculator {
 
-    private final Queue<Double> resultQueue = new LinkedList<>(); //Final 설정 이유 : 한번 설정하면 다시 안바뀔테니까.
+    private final Queue<Double> resultQueue; //Final 설정 이유 : 한번 설정하면 다시 안바뀔테니까.
+
+    public Calculator(Queue<Double> resultQueue) {
+        this.resultQueue = resultQueue;
+    }
 
     public void removeResult() {
         if(!resultQueue.isEmpty()){

@@ -2,7 +2,13 @@ package calculator;
 
 import formula.FormulaHelper;
 
+import java.util.Queue;
+
 public class CircleCalculator extends Calculator{
+
+    public CircleCalculator(Queue<Double> resultQueue) {
+        super(resultQueue);
+    }
 
     private double radius;
 
