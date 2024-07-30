@@ -20,7 +20,6 @@ public class App {
         CircleCalculator circleCalculator = new CircleCalculator(new LinkedList<>());
 
         while (true) {
-
             //왜 String ? 스캐너가 입력받는 타입이 너무 빡빡하다..
             String firstNumber, secondNumber, arithmeticResult;
             String radius;
@@ -28,39 +27,39 @@ public class App {
             String symbols;
             String etcStr;
 
-
             System.out.println("사칙연산 진행 : 1, 원의 너비 구하기 : 2  를 선택하세요 ");
             etcStr = sc.nextLine();
 
                 switch (etcStr) {
                     case "1":
                         try {
-                        System.out.println("첫 번째 숫자를 입력하세요: ");
-                        firstNumber = sc.nextLine();
+
+                            System.out.println("첫 번째 숫자를 입력하세요: ");
+                            firstNumber = sc.nextLine();
 
                             FormulaHelper.checkNum(firstNumber);
                             arithmeticCalculator.setFirstNumber(firstNumber);
 
-
-
-                        System.out.println("두 번째 숫자를 입력하세요: ");
-                        secondNumber = sc.nextLine();
+                            System.out.println("두 번째 숫자를 입력하세요: ");
+                            secondNumber = sc.nextLine();
 
                             FormulaHelper.checkNum(secondNumber);
                             arithmeticCalculator.setSecondNumber(secondNumber);
 
-                        System.out.println("사칙연산 기호를 입력하세요: ");
-                        symbols = sc.nextLine();
+                            System.out.println("사칙연산 기호를 입력하세요: ");
+                            symbols = sc.nextLine();
 
                             FormulaHelper.checkOperator(symbols);
                             arithmeticCalculator.setSymbol(symbols);
-                        }catch (Exception e){
-                            break;
-                        }
+
 
                         arithmeticResult = arithmeticCalculator.calculate().toString();
                         System.out.println("결과: " + arithmeticResult);
                         arithmeticCalculator.addResult(Double.parseDouble(arithmeticResult));
+
+                        }catch (Exception e){
+                            break;
+                        }
 
                         System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제)");
                         etcStr = sc.nextLine();
